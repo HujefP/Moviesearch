@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+}
+/* .container{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+} */
+input{
+    width: 260px;
+    padding: 16px;
+    border: none;
+}
+.btn1{
+    width: 100px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover{
+    transform: scale(0.9);
+}
+input:focus{
+    outline: none;
+}
+.poster{
+    width: 350px;
+    height: 450px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+}
