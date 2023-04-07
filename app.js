@@ -17,28 +17,24 @@ let API = 'http://www.omdbapi.com/?i=tt3896198&apikey=c89a78a1'
 let loadingStatus = false;
 
 
-
-function user() {
-    let userinput = document.getElementById('userinput');
-    document.getElementById('userdetail.innerText');
-    userdetail.innerText = 'Welcome ' + userinput.value;
-    userinput.value = ''
-}
-
+let btn = document.getElementById('btn');
+userdetail.style.display = 'block'
 let main = document.getElementById('main-page');
-main.style.display= 'none'
+main.style.display = 'none'
+
 function user(){
-    let name = document.getElementById('name').value;
-    document.getElementById('username');
+    let name = document.getElementById('name');
+    document.getElementById('username.innerText');
     username.innerText='Welcome '+ name.value;
     name.value='';
     name.style.display= 'none';
+    btn.style.display = 'none'
+    main.style.display = 'block'
 }
-function login() {
-    let user = document.getElementById('user');
-    user.style.display = 'none'
-    main.style.display= 'block'
-}
+// function login() {
+//     userdetail.style.display = 'none'
+//     main.style.display = 'block'
+// }
 
 
 function checkstatus() {

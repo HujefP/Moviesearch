@@ -13,15 +13,15 @@
 </head>
 
 <body>
-  <div class="container user text-light d-flex justify-content-center" id="user">
-    <input type="text" class="name" placeholder="Enter Name" id="name " required>
-     <button class="btn btn-light" onclick="login()">Login</button>
-    
+ <div class="container mt-5 text-light d-flex justify-content-center" id="userdetail">
+     <input type="text" class="text-center py-1" id="name" placeholder="Enter You Name" required>
+     <button class="btn btn-light" id="btn" onclick="user()">Login</button>
 </div>
+
  <div class="main-page" id="main-page">
    <!-- search -->
+    <h1 class="text-light text-center d-block" id="username"> </h1>
    <div class="container sticky-top d-flex justify-content-center mt-5 mb-5">
-    <h1 class="text-light d-block" id="username"> </h1>
     <input type="text" placeholder="Enter Movie Name" id="entername">
     <button class="btn1" onclick="search()">Search</button>
   </div>
