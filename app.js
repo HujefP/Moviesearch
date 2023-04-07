@@ -12,7 +12,7 @@
 
 // let API = 'https://www.omdbapi.com/?apikey=61e576a4&t=';
 
-let API = 'http://www.omdbapi.com/?i=tt3896198&apikey=c89a78a1'
+let API = 'https://www.omdbapi.com/?i=tt3896198&apikey=c89a78a1'
 
 let loadingStatus = false;
 
