@@ -6,9 +6,9 @@
 
 // let API = 'https://www.omdbapi.com/?apikey=b91406d9&='
 
-//  let API_Movie= 'http://www.omdbapi.com/?apikey=b91406d9&='
+//  let API = 'https://www.omdbapi.com/?apikey=b91406d9&='
 
-// API_Movie='https://www.omdbapi.com/?i=tt3896198&apikey=b91406d9&='
+// API ='https://www.omdbapi.com/?i=tt3896198&apikey=b91406d9&='
 
 // let API = 'https://www.omdbapi.com/?apikey=61e576a4&t=';
 
@@ -53,6 +53,7 @@ function checkstatus() {
 let moviename = document.getElementById('moviename');
 let moviedetail = document.getElementById('moviedetail');
 let img = document.getElementById('img');
+let year = document.getElementById('year');
 
 
 function search() {
@@ -69,6 +70,7 @@ function search() {
         moviename.classList.add('text');
         moviedetail.innerText = data.Plot
         img.src = data.Poster
+        year.innerText = data.Year
 
         loadingStatus = false;
         checkstatus()
